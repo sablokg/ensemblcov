@@ -1,0 +1,16 @@
+[package]
+name = "ensemblcov"
+version = "0.7.0"
+edition = "2024"
+readme = "README.md"
+license = "MIT"
+authors = ["Gaurav Sablok"]
+description = "ensemblcov for human genomics"
+homepage = "https://codeberg.org/gsablok/ensemblcov"
+repository = "https://codeberg.org/gsablok/ensemblcov"
+keywords = ["bioinformatics","genomics"]
+
+[dependencies]
+clap = { version = "4.5.38", features = ["derive"] }
+figlet-rs = "0.1.5"
+rayon = "1.11.0"
